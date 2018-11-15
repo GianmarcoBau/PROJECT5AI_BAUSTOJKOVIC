@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     func fromStringToInt(daTradurre: String) -> Int{
-        return Int(daTradurre)
+        return Int(daTradurre)!
     }
     
     func calcolaAreaQuadrato(lato: Int) -> Int{
